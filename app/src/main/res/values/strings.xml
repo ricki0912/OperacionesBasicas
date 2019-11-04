@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiTabla</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_main_activity">Operaciones Básicas</string>
+</resources>

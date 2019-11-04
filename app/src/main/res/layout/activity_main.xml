@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MI TABLA"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Seleccionar una opción para mostrar la tabla" />
+
+            <Button
+                android:id="@+id/buttonSumar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumar" />
+
+            <Button
+                android:id="@+id/buttonRestar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restar" />
+
+            <Button
+                android:id="@+id/buttonMultiplicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multiplicar" />
+
+            <Button
+                android:id="@+id/buttonDividir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dividir" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
